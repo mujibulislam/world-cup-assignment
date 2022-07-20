@@ -1,0 +1,266 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    /* font-family: 'Open Sans', sans-serif; */
+font-family: 'Poppins', sans-serif;
+}
+header{
+    margin-bottom: 1%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+}
+
+/* header style */
+.head-container{
+    display: flex;
+    width: 1321px;
+height: 646px;
+background-color: black;
+border-radius: 30px;
+}
+.heading-parent h1 {
+    color: #FFFFFF;
+    width: 531px;
+    height: 240px;
+    font-size: 70px;line-height: 60px;
+   
+}
+.text-color{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: -15%;
+    line-height: 26px;
+    
+}
+.heading-parent {
+    margin-top: 7%;
+    margin-left: 10%;
+    
+}
+.heading-parent a{
+    background-color: #DD0000;
+    text-decoration: none;
+    color: #FFFFFF;  
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin-left: 0%;
+}
+
+.img-parent img{
+    width: 581px;
+height: 613px;
+
+margin-top:32.5px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+   
+   
+}
+.player{
+    grid-column-gap: 65px;
+    width: 312px;
+height: 362px;
+border: 1px solid #E8E8E8;
+border-radius: 10px;
+margin-left: 0px;
+margin-bottom: 24px;
+}
+.player-detail  span{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+border-radius: 5px;
+font-size: 16px;
+font-style: none;
+   box-sizing: border-box;
+}
+.player-detail{
+    margin-left: 20px;
+}
+.player-info{
+    margin-left: 20px; 
+    display: flex;
+}
+.comment-section{
+    margin-left: 49px;
+}
+
+
+
+
+aside{
+    float: left;
+    width: 312px;
+height: 290px;
+border: 1px solid;
+margin-right: 23px;
+background: #161616;
+text-align: center;
+border-radius: 10px;
+
+
+
+}
+
+.link-parent {
+    text-decoration: none;
+justify-content: center;
+margin-top: 45px;
+
+}
+.link-parent a{
+    text-decoration: none; 
+    color: black;
+     
+}
+
+.button1{
+    background-color: #FFFFFF;
+    color:  #161616;
+    border: 1px solid grey;
+    width: 50%;
+    padding: 12px 12px;
+    margin:auto;
+    border-radius: 10px;
+}
+.button2{
+    background-color:#FFFFFF;
+    color: #161616;
+    border: 1px solid grey;
+    width: 50%;
+    margin:auto;
+    padding: 12px 12px;
+    border-radius: 10px;
+    
+}
+.button3 {
+    background-color:#DD0000;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 50%;
+   margin:auto;
+   padding: 12px 12px;
+    
+}
+.button3 a{
+    color:  #FFFFFF;
+    
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+height:300px;
+background:#161616;
+
+}
+footer h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+    width: 80%;
+    background: #FFFFFF1A;
+
+}
+.contact{
+  
+    display: grid;
+    font-size: 13px;
+    grid-template-columns: repeat(6, 1fr);
+    
+    
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    color: #B9B9B9;
+    
+}
+.social-icon{
+    color:#FFFFFF1A ;
+    text-align: center;
+    justify-content: space-evenly;
+   
+
+}
+/* -----------------------
+ --------Responsive ------*/
+
+@media screen and (max-width:688px){
+   .head-container{
+   width: 100%;
+   height: 100%; 
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .heading-parent{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .heading-parent h1{
+        
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+        font-size:25px;
+    }
+    .text-color , a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size:12px;
+       
+        align-items: center;
+       
+    }
+    
+.img-parent{
+    display: flex;
+    flex-direction: column;
+     width:70%;
+    height: 20%; 
+}
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer ,h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .social-icon{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
